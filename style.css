@@ -1,0 +1,148 @@
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F5F4F0;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.headline{
+    font-size: 16px;
+    font-weight: bold;
+    color: #E1624F;
+}
+
+.subtitle{
+    font-size: 16px;
+    font-style: italic;
+}
+
+.center-content{
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 10rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.city{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 3rem 0;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.city figure{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.city figure img{
+    border-radius: 28px;
+    width: 100%;
+
+}
+
+.city figure figcaption{
+    display: flex;
+    text-align:center;
+    padding: 0 0 0 1rem;
+    width: 97%;
+    color: #333333;
+}
+
+.turism-places{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem 0;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+
+.header,
+.places,
+.place{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.place{
+    margin-bottom: 2rem;
+}
+
+.places img{
+    margin-bottom: 1rem;
+}
+
+.place ul{
+    margin-top: 2rem;
+}
+
+.place ul span{
+    font-weight: bold;
+}
+
+
+.place ul li{
+    margin-left: 1rem;
+}
+
+.history{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0C51A7;
+}
+
+.family{
+    font-size: 16px;
+    font-weight: 400;
+    color: #E5245E;
+}
+
+.budget{
+    font-size: 16px;
+    font-weight: 400;
+    color: #E95E10;
+}
+
+.last-info{
+    display: flex;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+
+
+
+
+
