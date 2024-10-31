@@ -134,6 +134,12 @@ p {
   color: #e95e10;
 }
 
+.couple {
+  font-size: 16px;
+  font-weight: 400;
+  color: #591b98;
+}
+
 .last-info {
   display: flex;
   text-align: center;
